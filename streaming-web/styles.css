@@ -1,0 +1,119 @@
+body {
+    background-color: #393053;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    background-color: #18122B;
+    height: 175px;
+}
+
+header h1 {
+    position: static;
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 65px;
+    padding: 40px;
+}
+
+nav {
+    background-color: #443C68;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    transition: 0.8s;
+
+}
+
+.sub-title {
+    top: 50px;
+    right: -100px;
+    font-size: 45px;
+    position: relative;
+    color: #fff;
+}
+
+.nav-option {
+    text-decoration: none;
+    color: #E5E5CB;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-option:hover {
+    text-shadow: 0px 0px 20px white, 0px 0px 20px rgb(197, 197, 197);
+}
+
+/* the 3 highlighted */
+
+#rec {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+}
+
+#rec2 {
+    margin: 250px 185px;
+}
+
+#reco2 {
+    position: relative;
+    background-color: red;
+    margin: 0 -45px;
+    height: 375px;
+    width: 550px;
+}
+
+.recs {
+    display: inline-block;
+    /* margin: 250px 185px; */
+    background-color: green;
+    height: 275px;
+    width: 450px;
+    transition: 0.5s;
+}
+
+.recs:hover {
+    padding: 25px;
+}
+
+/* Here ends the 3 highlighted */
+
+#catalog {
+    width: 100%;
+    height: 3000px;
+}
+
+.row {
+    width: 2500px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.cell {
+    overflow: hidden;
+    display: inline-block;
+    background-color: green;
+    width: 320px;
+    height: 450px;
+    margin: 25px 12px;
+    transition: 0.5s;
+}
+
+.cell:hover {
+    width: 350px;
+    height: 480px;
+}
+
+p {
+    padding-top: 250px;
+    color: white;
+    text-align: center;
+}
+
+#p2 {
+    padding-top: 0px;
+}
