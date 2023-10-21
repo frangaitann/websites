@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+
+
+/* ----------------------------------------------- */
+
+
+html {
+    font-size: 0.26vw;
+}
+
+* {
+    margin: 0;
+    font-weight: 100;
+}
+
+.stripe1 {
+    height: 20px;
+    background-color: #3c0d99;
+}
+
+.stripe2 {
+    margin: 0 0 0.7vw 2.5vw;
+    display: inline-block;
+    width: 33vw;
+    height: 0.26vw;
+    background-color: #3c0d99;
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue';
+    color: #000;
+}
+
+.separator1 {
+    height: 30px;
+    background-color: transparent;
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+
+#cv {
+    background-color: rgb(245, 245, 245);
+    /* background-color: red; */
+    margin: 0 25vw 0 25vw;
+}
+
+
+
+
+
+h1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 18rem;
+    top: 3.1vw;
+    line-height: 0.7;
+}
+
+h2 {
+    font-family: 'Archivo Black';
+    color: #3c0d99;
+    display: inline-block;
+    position: absolute;
+    top: 6.2vw;
+    font-size: 4.4rem;
+}
+
+#block-st div:nth-child(1) img{
+    border-radius: 55.1vw;
+    width: 8.5vw;
+    margin: 2vw 2vw 0 3vw;
+}
+
+#block-st div:nth-child(1) p {
+    font-family: 'Raleway';
+    font-size: 4rem;
+    text-align: right;
+}
+
+/* ----------------------------------------------- */
+
+
+h3 {
+    text-align: right;
+    font-size: 7rem;
+    margin: 0 0 0 10.8%;
+    display: inline-block;
+    line-height: 1;
+}
+
+#cv div:nth-child(4) p {
+    width: 34.1vw;
+    height: 2.5vw;
+    margin: 0 0 0 30%;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    text-align: left;
+}
+
+li {
+    width: 34.1vw;
+    height: 2.5vw;
+    margin: 0 0 0 30%;
+    font-family: 'Raleway';
+    font-size: 4rem;
+    text-align: left;
+}
+
+
+/* ----------------------------------------------- */
+
+#block-st div:nth-child(2) img:nth-child(1){
+    opacity: 0;
+    width: 6vw;
+    position: absolute;
+    top: 4.7vw;
+    left: 40%;
+}
+
+#block-st div:nth-child(2) img:nth-child(3) {
+    opacity: 0;
+    width: 2vw;
+    position: absolute;
+    top: 5.7vw;
+    left: 47.2vw;
+}
+
+#block-st div:nth-child(2) img:nth-child(5) {
+    opacity: 0;
+    width: 2vw;
+    position: absolute;
+    top: 8.4vw;
+    left: 47.2vw;
+}
+
+#block-st div:nth-child(2) img:nth-child(7) {
+    opacity: 0;
+    width: 2vw;
+    position: absolute;
+    top: 11vw;
+    left: 47.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+#block-st div:nth-child(2) a {
+    font-size: 5rem;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    font-family: 'Raleway';
+}
+
+#block-st div:nth-child(2) a:nth-child(2) {
+    top: 6vw;
+    left: 49.9vw;
+}
+
+#block-st div:nth-child(2) a:nth-child(4) {
+    top: 8.6vw;
+    left: 49.9vw;
+}
+
+#block-st div:nth-child(2) a:nth-child(6) {
+    top: 11.2vw;
+    left: 49.9vw;
+}
+
+a{
+    color: #3c0d99;
+}
+
+
+
+
+
+
+
+
+
+
+
+#block-st:hover div:nth-child(1) {
+    opacity: 0;
+}
+
+#block-st:hover div:nth-child(2) img {
+    opacity: 1;
+}
+
+#block-st:hover div:nth-child(2) a {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#block-st div:nth-child(1){
+    transition: 0.3s;
+}
+
+#block-st div:nth-child(2) img{
+    transition: 0.2s;
+}
+
+#block-st div:nth-child(2) a{
+    transition: 0.2s;
+}
