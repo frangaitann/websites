@@ -3,7 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Pathway Extreme', sans-serif;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 body {
@@ -42,7 +44,7 @@ h1 {
 
 }
 
-@keyframes h1-anim {
+/* @keyframes h1-anim {
     from {
         margin-top: 0px;
     }
@@ -50,11 +52,11 @@ h1 {
     to {
         margin-top: 45px;
     }
-}   
+}    */
 
 
 #logo {
-    width: 0px;
+    width: 100px;
     margin: 15px 0;
     text-align: center;
     animation-name: logo-anim;
@@ -63,7 +65,7 @@ h1 {
     animation-fill-mode: forwards;
 }
 
-@keyframes logo-anim {
+/* @keyframes logo-anim {
     from {
         width:0%;
     }
@@ -81,7 +83,7 @@ h1 {
     to {
         width: 100px;
     }
-}
+} */
 
 
 
@@ -114,44 +116,39 @@ nav {
 /* MAIN */
 
 #propic {
-    border-radius: 1050px;
-    width: 275px;
-    margin: 115px 85px 0 275px;
+    border-radius: 55.1vw;
+    width: 15.5vw;
+    margin: 6.04vw 4.46vw 0 14.4vw;
 }
 
 #img-cont {
-    padding: 55px;
-    margin: 70px 0 0 70px;
+    padding: 2vw 0 0 0;
+    margin: 5vw 0 0 8vw;
 }
 
 main div h2 {
     display: inline-block;
     color: #fffff0;
-    height: 300px;
-    width: 700px;
-    font-size: 115px;
+    height: 15.7vw;
+    width: 36.7vw;
+    font-size: 6.04vw;
     font-weight: 900;
-    padding: 35px;
+    padding: 0.09vw;
     transition: 0.2s;
 }
 
-#brown-cont {
+#resume-cont {
     width: 100%;
-    height: 350px;
-    background-color: #483c32;
-    opacity: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
+    height: 18.4vw;
+    text-align: center;
+    
 }
 
-#brown-cont p {
+#resume-cont p {
+    margin: 0 10% 0 10%;
     color: #fffff0;
-    font-size: 45px;
-    margin: 25px;
-    text-align: center;
-    line-height: 80px;
+    font-size: 160%;
+    line-height: 115%;
 }
 
 main div {
@@ -161,10 +158,10 @@ main div {
 
 main div:nth-child(2) h2:nth-child(2) {
     position: absolute;
-    font-size: 80px;
-    top: -100px;
-    right: -150px;
-    width: 900px;
+    font-size: 4.5vw;
+    top: -3vw;
+    right: -10.8vw;
+    width: 50vw;
     height: auto;
     opacity: 0;
     transition: 0.2s;
@@ -192,7 +189,7 @@ main div:nth-child(2):hover h2:nth-child(1) {
 
 .separator_2 {
     width: 100%;
-    height: 100px;
+    height: 5.2vw;
 }
 
 
@@ -206,16 +203,15 @@ main h2{
     color: #fffff0;
     display: inline-block;
     position: relative;
-    top: -55px;
-    font-size: 90px;
+    top: -2.8vw;
+    font-size: 4.7vw;
     font-weight: 900;
-    margin-left: 50px;}
+    margin-left: 2.6vw;}
 
 #pyth-cont img {
-    border-radius: 0;
-    width: 175px;
-    height: 175px;
-    margin: 150px 0 0 150px;
+    width: 9.1vw;
+    height: 9.1vw;
+    margin: 7.8vw 0 0 7.8vw;
 }
 
 #python-cont div {
@@ -235,12 +231,12 @@ main h2{
 
 #python-cont div:nth-child(1) h3 {
     color: #e6cfa5;
-    font-size: 150px;
+    font-size: 7.8vw;
     width: 100%;
     margin: 0;
     position: absolute;
-    bottom: -40px;
-    left: -15px;
+    bottom: -2.1vw;
+    left: -0.7vw;
 }
 
 
@@ -255,10 +251,10 @@ main h2{
 
 #python-cont div:nth-child(2) h3 {
     color: #954535;
-    font-size: 150px;
+    font-size: 7.8vw;
     margin: 0;
     position: absolute;
-    bottom: -40px;
+    bottom: -2.1vw;
 }
 
 
@@ -273,11 +269,11 @@ main h2{
 
 #python-cont div:nth-child(3) h3 {
     color: #303841;
-    font-size: 150px;
+    font-size: 7.8vw;
     margin: 0;
     position: absolute;
-    bottom: -40px;
-    left: -15px;
+    bottom: -2.1vw;
+    left: -0.7vw;
 }
 
 
@@ -290,10 +286,9 @@ main h2{
 
 
 #web-cont img {
-    border-radius: 0;
-    width: 175px;
-    height: 175px;
-    margin: 150px 0 0 150px;
+    width: 9.1vw;
+    height: 9.1vw;
+    margin: 7.8vw 0 0 7.8vw;
 }
 
 #web-cont div {
@@ -319,8 +314,8 @@ main h2{
 #web-cont div:nth-child(1) h3 {
     color: #e6cfa5;
     position: absolute;
-    bottom: -40px;
-    right: -10px;
+    bottom: -2.1vw;
+    right: -0.5vw;
     transition: 0.3s;
 }
 
@@ -336,8 +331,8 @@ main h2{
 #mid-block h3 {
     color: #954535;
     position: absolute;
-    bottom: -40px;
-    left: -15px;
+    bottom: -2.1vw;
+    left: -0.8vw;
 }
 
 
@@ -351,8 +346,8 @@ main h2{
 #web-cont div:nth-child(3) h3 {
     color: #303841;
     position: absolute;
-    bottom: -40px;
-    right: -10px;
+    bottom: -2.1vw;
+    right: -0.5vw;
 }
 
 
@@ -365,7 +360,7 @@ main h2{
 .block-titl {
     transition: 0.3s;
     margin: 0;
-    font-size: 150px;
+    font-size: 7.8vw;
 }
 
 .col-block:hover .block-titl {
@@ -375,10 +370,57 @@ main h2{
 .transp {
     opacity: 0;
     transition: 0.4s;
-    margin: 45px;
+    margin: 2.3vw;
     text-align: center;
+    word-wrap: break-word;
+    width: 50%;
+    white-space: normal;
+    font-size: 120%;
+    font-weight: 600;
 }
 
 .col-block:hover .transp {
     opacity: 1;
+}
+
+
+
+
+
+/* FOOTER */
+
+
+ul {
+    list-style-type: none;
+}
+
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #171a1f;
+}
+
+
+#foot-cont {
+    margin: 0 25% 0 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#foot-cont div {
+    margin: 5% 0 0 0;
+}
+
+#foot-cont h3 {
+    color: #fffff0;
+    margin: 0 0 0.8vw;
+}
+
+li {
+    margin: 0 0 0.5vw 0;
+}
+
+#foot-cont a:hover {
+    text-decoration: underline;
 }
